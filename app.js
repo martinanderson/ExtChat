@@ -1,5 +1,5 @@
 Ext.application({
-    name: 'ButtonApp',
+    name: 'ExtChatApp',
     launch: function() {
         Ext.create('Ext.container.Viewport', {
             layout: 'centered',
