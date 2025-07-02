@@ -1,0 +1,38 @@
+/* Basic styling for the chat window */
+
+/* Style for the message list (grid) */
+.x-grid-item {
+    padding: 5px;
+    border-bottom: 1px solid #eee; /* Light border between messages */
+}
+
+.x-grid-item:last-child {
+    border-bottom: none; /* No border for the last message */
+}
+
+/* Style for the user's name in a message - if you add a specific class later */
+.chat-user-name {
+    font-weight: bold;
+    color: #337ab7; /* Bootstrap primary blue, for example */
+}
+
+/* Style for the message text - if you add a specific class later */
+.chat-message-text {
+    margin-left: 5px;
+}
+
+/* Ensure the send button icon is visible and sized appropriately */
+.x-fa.fa-paper-plane {
+    font-size: 16px; /* Adjust as needed */
+    color: #337ab7; /* Icon color */
+}
+
+/* Styling for the input area container */
+.x-container-default {
+    /* If you need specific styling for the south region container */
+}
+
+/* Styling for the text field */
+.x-form-text-default {
+    /* Specific styling for the message input text field if needed */
+}
