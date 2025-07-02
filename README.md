@@ -1,1 +1,1 @@
-# ExtChat
+Chat demo app, ExtJs.
