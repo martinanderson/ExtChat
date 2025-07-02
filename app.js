@@ -6,7 +6,7 @@ Ext.application({
             items: [
                 {
                     xtype: 'button',
-                    text: 'Click Me',
+                    text: 'Open chat',
                     handler: function() {
                         Ext.Msg.alert('Button Clicked', 'Hello from ExtJs!');
                     }
