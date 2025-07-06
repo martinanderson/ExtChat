@@ -1,0 +1,58 @@
+/* Basic styling for the chat window */
+
+/* Style for the message list (grid) */
+.x-grid-item {
+    padding: 5px;
+    border-bottom: 1px solid #eee; /* Light border between messages */
+}
+
+.x-grid-item:last-child {
+    border-bottom: none; /* No border for the last message */
+}
+
+/* Style for the user's name in a message - if you add a specific class later */
+.chat-user-name {
+    font-weight: bold;
+    color: #337ab7; /* Bootstrap primary blue, for example */
+}
+
+/* Style for the message text - if you add a specific class later */
+.chat-message-text {
+    margin-left: 5px;
+}
+
+/* Ensure the send button icon is visible and sized appropriately */
+.x-fa.fa-paper-plane {
+    font-size: 16px; /* Adjust as needed */
+    color: #337ab7; /* Icon color */
+}
+
+/* Styling for the input area container */
+.x-container-default {
+    /* If you need specific styling for the south region container */
+}
+
+/* Styling for the text field */
+.x-form-text-default {
+    /* Specific styling for the message input text field if needed */
+}
+
+/* Styling for the loading indicator text */
+.loading-indicator {
+    font-style: italic;
+    color: #888; /* Grey color for loading text */
+}
+
+/* Styling for the entire row when it's a loading row */
+.loading-row .x-grid-cell-inner {
+    /* Example: slightly different background or text color for the whole row */
+    /* background-color: #f9f9f9; */
+    /* color: #777; */
+    /* No specific style needed here if the .loading-indicator class is sufficient */
+}
+
+/* Ensure message text wraps and doesn't overflow */
+.x-grid-cell-inner {
+    white-space: normal !important; /* Allow text to wrap */
+    word-wrap: break-word; /* Break long words */
+}
